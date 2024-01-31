@@ -11,7 +11,7 @@ def main():
     # authorized_user_filename='/home/busterscruggs/.config/gspread/authorized_user.json'
     # )
 
-    gc = gspread.service_account(filename='/home/busterscruggs/.config/gspread/k')
+    gc = gspread.service_account(filename='/home/busterscruggs/.config/gspread/k ')
     sh = gc.open('Test-sheet"')
     worksheet1 = sh.get_worksheet(0)
 
